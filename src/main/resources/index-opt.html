@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Factorization</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+          crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+    <h1>Factorization</h1>
+
+    <div class="panel panel-default">
+        <div class="panel-heading">
+            <form class="form-inline">
+                <div class="form-group">
+                    <input type="text" placeholder="enter your number" id="number" class="form-control">
+                    <button id="calculate" class="btn btn-success" type="button">Calculate</button>
+                    <button id="stop" class="btn btn-danger" type="button">Stop</button>
+                </div>
+            </form>
+        </div>
+        <div class="panel-body">
+            <div class="well well-lg" id="target"></div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript" src="./target/scala-2.12/numberslib-fastopt.js"></script>
+
+</body>
+</html>
